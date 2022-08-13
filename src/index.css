@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  --color-golden: #ac8754;
+  --color-light-gray: rgba(221, 221, 221);
+  --color-light-gray-t: rgba(221, 221, 221, 0.5);
+  --color-gray: #333;
+  --color-dark-gray: #222;
+  --color-dark-gray-t: rgba(34, 34, 34, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #eee;
+}
+
+#main{
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");

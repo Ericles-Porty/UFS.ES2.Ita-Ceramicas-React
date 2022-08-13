@@ -1,0 +1,30 @@
+.containerPiso {
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: var(--color-dark-gray-t) solid 1px;
+  border-radius: 2px;
+}
+
+.containerPiso:hover {
+  background-color: var(--color-light-gray);
+}
+
+.containerPiso:hover .button {
+  visibility: visible;
+}
+
+.button {
+  visibility: hidden;
+}
+
+.info {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

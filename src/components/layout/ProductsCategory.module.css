@@ -1,0 +1,24 @@
+.gridSectionPisos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.sectionPisos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+}
+
+hr{
+  margin:15px;
+}

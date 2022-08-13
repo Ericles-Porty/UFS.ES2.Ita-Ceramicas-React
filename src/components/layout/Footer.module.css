@@ -1,0 +1,72 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-gray);
+}
+
+#sobre {
+  background-color: var(--color-gray);
+}
+
+#scrollUpButton {
+  transform: translate(40vw, -20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-golden);
+  color: var(--color-gray);
+  font-size: 2.75em;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+#formComments {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--color-gray);
+  color: var(--color-golden);
+}
+
+.formBlock > #name,
+#email,
+#message {
+  margin: 6px 0;
+}
+
+.formBlock {
+  width: 35vw;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: var(--color-golden) solid 1px;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+label {
+  color: var(--color-golden);
+}
+
+input,
+textarea {
+  color: var(--color-gray);
+  padding: 10px;
+  border: none;
+  background-color: var(--color-light-gray-t);
+  border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+  .formBlock {
+    width: 80vw;
+  }
+}

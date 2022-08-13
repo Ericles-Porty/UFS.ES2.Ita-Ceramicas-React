@@ -1,0 +1,13 @@
+.buttonComprar {
+  border: var(--color-golden) solid 3px;
+  padding: 5px 20px;
+  cursor: pointer;
+  color: var(--color-golden);
+  font-size: 1.2em;
+  background-color: var(--color-gray);
+  border-radius: 2px;
+}
+
+.buttonComprar:hover {
+  background-color: var(--color-dark-gray);
+}
