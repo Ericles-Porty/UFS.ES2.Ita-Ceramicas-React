@@ -51,7 +51,7 @@ function Footer() {
       </form>
 
       <p>Todos os direitos reservados</p>
-      <p>&copy;Ita Cerâmicas - 2022</p>
+      <p>&copy;Ita Cerâmicas - 2022 - Éricles dos Santos Cunha</p>
     </footer>
   );
 }
