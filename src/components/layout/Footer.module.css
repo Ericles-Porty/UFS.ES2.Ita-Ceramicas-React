@@ -1,9 +1,11 @@
 #footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   background-color: var(--color-gray);
+  flex-wrap: wrap;
+  padding: 40px 0;
 }
 
 #sobre {
@@ -11,7 +13,7 @@
 }
 
 #scrollUpButton {
-  transform: translate(40vw, -20px);
+  transform: translate(80vw, 20px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +27,21 @@
   cursor: pointer;
 }
 
+.blockContainer {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 650px;
+  width: 30%;
+  border: 1px solid var(--color-golden);
+  padding: 20px;
+  font-size: 1.2em;
+}
+.blockContainer > p {
+  text-align: center;
+}
 #formComments {
   padding: 10px;
   display: flex;
@@ -43,8 +60,8 @@
 }
 
 .formBlock {
-  width: 35vw;
-  margin: 10px;
+  width: 29vw;
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
   border: var(--color-golden) solid 1px;
@@ -64,9 +81,51 @@ textarea {
   background-color: var(--color-light-gray-t);
   border-radius: 2px;
 }
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  .blockContainer p {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1885px) {
+  #formBlockContainer {
+    order: 3;
+  }
+  #aboutBlockContainer {
+    order: 1;
+  }
+  #locationBlockContainer {
+    order: 2;
+  }
+
+  .formBlock {
+    width: 40vw;
+  }
+  #formBlockContainer {
+    width: 40vw;
+  }
+}
 
 @media (max-width: 600px) {
   .formBlock {
-    width: 80vw;
+    width: 60vw;
+  }
+  #formBlockContainer {
+    width: 60vw;
+  }
+  #aboutBlockContainer {
+    width: 60vw;
+  }
+  #locationBlockContainer {
+    width: 60vw;
+  }
+  #footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

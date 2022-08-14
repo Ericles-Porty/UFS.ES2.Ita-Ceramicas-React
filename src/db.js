@@ -32,7 +32,7 @@ import pisoClassicoTijolos from "./img/pisos/piso-classico-tijolos.webp";
 
 const categories = [
   {
-    title: "Premium",
+    title: "Pisos Premium",
     products: [
       {
         to: "/piso/premium/avorio-di-brescia",
@@ -185,7 +185,7 @@ const categories = [
     ],
   },
   {
-    title: "Clássico",
+    title: "Pisos Clássicos",
     products: [
       {
         to: "/piso/classico/argila",
