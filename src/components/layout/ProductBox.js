@@ -6,7 +6,7 @@ function ProductBox({ to, imgSrc, preco, title }) {
   return (
     <Link to={to} className={styles.containerPiso}>
       <h3>{title}</h3>
-      <img src={imgSrc} alt="" />
+      <img src={imgSrc} className={styles.imgBox} alt="" />
       <div className={styles.info}>
         <p>
           <s>R$ {preco}</s>

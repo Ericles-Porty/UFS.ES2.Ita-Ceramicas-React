@@ -10,6 +10,11 @@
   border-radius: 2px;
 }
 
+.imgBox{
+  width: 200px;
+  height: 220px;
+}
+
 .containerPiso:hover {
   background-color: var(--color-light-gray);
 }
