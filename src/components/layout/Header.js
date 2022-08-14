@@ -37,7 +37,7 @@ function Header() {
             </Link>
           </li>
           <li className={!sideBar? styles.navbarItems: styles.navbarItemsActive}>
-            <a className={styles.links} href="#contact">
+            <a className={styles.links} href="#about">
               Sobre
             </a>
           </li>

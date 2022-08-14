@@ -15,8 +15,11 @@ function Footer() {
         <FontAwesomeIcon icon={faCircleArrowUp} />
       </button>
       <footer id={styles.footer}>
-        <section className={styles.blockContainer} id={styles.aboutBlockContainer}>
-          <h2>Sobre nós</h2>
+        <section
+          className={styles.blockContainer}
+          id={styles.aboutBlockContainer}
+        >
+          <h2 id="about">Sobre nós</h2>
           <p>Somos uma Startup no ramo de pisos cerâmicos de luxo</p>
           <p>Mas também temos pisos acessíveis para todos</p>
           <p>Todos os pisos são feitos a mão</p>
@@ -29,7 +32,10 @@ function Footer() {
           <p>Venha nós fazer uma visita</p>
         </section>
 
-        <section className={styles.blockContainer} id={styles.formBlockContainer}>
+        <section
+          className={styles.blockContainer}
+          id={styles.formBlockContainer}
+        >
           <h2 id="contact">Contato</h2>
           <form
             id={styles.formComments}
@@ -66,7 +72,10 @@ function Footer() {
           <p>Todos os direitos reservados</p>
           <p>&copy;Ita Cerâmicas - 2022 - Éricles dos Santos Cunha</p>
         </section>
-        <section className={styles.blockContainer} id={styles.locationBlockContainer}>
+        <section
+          className={styles.blockContainer}
+          id={styles.locationBlockContainer}
+        >
           <h2>Localização</h2>
           <p>País: Brasil</p>
           <p>Estado: Sergipe</p>

@@ -46,7 +46,7 @@ const categories = [
         to: "/piso/premium/premium-belle-blanc",
         imgSrc: pisoPremiumBelleBlanc,
         preco: "499.99",
-        title: "Premium Belle Blanc",
+        title: "Belle Blanc",
         id: 1,
         idModel: "PFBE2407",
       },
