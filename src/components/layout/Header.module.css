@@ -20,7 +20,7 @@
 #header > nav {
   height: 100%;
   display: flex;
-  align-items: flex-flex-end;
+  align-items: flex-end;
 }
 
 #header > h1 {
@@ -93,13 +93,13 @@ a {
 
 #navbarContainerActive {
   border: 1px solid var(--color-golden);
-  position: sticky;
-  transform: translate(62px, 100px);
+  position: absolute;
+  transform: translate(-90px, 600px);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  width: 200px;
+  width: 150px;
   height: 600px;
   background-color: var(--color-gray);
   font-size: 1.5em;

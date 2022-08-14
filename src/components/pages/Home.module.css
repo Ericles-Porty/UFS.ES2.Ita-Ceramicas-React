@@ -1,6 +1,6 @@
 
 #searchBar {
-    margin: 20px;
+    margin: 20px 0;
     width: 100%;
     display: flex;
     color: var(--color-dark-gray);
@@ -36,11 +36,5 @@
   @media (max-width: 860px) {
     #searchBar >input  {
       width: 50vw;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    #searchBar {
-      display: none;
     }
   }
